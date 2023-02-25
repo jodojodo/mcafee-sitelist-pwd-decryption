@@ -4,6 +4,15 @@
 - Blog:  http://funoverip.net
 - Date:  Feb 10 2016
 
+### Installation:
+
+- Ensure you have pyenv and direnv installed.
+- `pyenv install 3.10.10`
+- Clone directory and enter it.
+- `direnv allow`
+- `pip install -r requirements.txt`
+- Run the script: `python mcafee_sitelist_pwd_decrypt.py ...`
+
 ### References:
 
 - https://funoverip.net/2016/02/mcafee-sitelist-xml-password-decryption/
@@ -14,7 +23,7 @@
 ### Example usage:
 
 ```
-./mcafee_sitelist_pwd_decrypt.py jWbTyS7BL1Hj7PkO5Di/QhhYmcGj5cOoZ2OkDTrFXsR/abAFPM9B3Q==
+python mcafee_sitelist_pwd_decrypt.py jWbTyS7BL1Hj7PkO5Di/QhhYmcGj5cOoZ2OkDTrFXsR/abAFPM9B3Q==
 Crypted password   : jWbTyS7BL1Hj7PkO5Di/QhhYmcGj5cOoZ2OkDTrFXsR/abAFPM9B3Q==
 Decrypted password : MyStrongPassword!
 ```
